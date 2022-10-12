@@ -1,7 +1,7 @@
 
 while true
 do
-	cd /home/pi/Project/Terraria
+	cd /home/gamer/terraria-auto-backup
 	git add .
 	git commit -m "auto backup on $(date)"
 	git push -u origin main
